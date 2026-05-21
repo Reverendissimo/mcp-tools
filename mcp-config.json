@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "vault": {
+      "command": "C:\\Users\\H67429\\Claude-Obsidian\\vault-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "C:\\Users\\H67429\\Claude-Obsidian\\vault-mcp\\vault-mcp.py",
+        "C:\\Users\\H67429\\Claude-Obsidian\\Claude-Desktop\\Claude-Desktop"
+      ]
+    }
+  }
+}
