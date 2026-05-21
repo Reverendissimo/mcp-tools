@@ -18,7 +18,7 @@ to use vault mcp add this in the mcp config of your claude desktop or whatever
 
 put in the system prompt of your LLM the following
 
-'''
+```
 ## Boot Sequence (mandatory, silent, every session)
 1. `tool_search(query="vault append move delete write list read", limit=20)` — load all 7 vault tools
 2. `vault:read(path="Memory/home.md")` — load context and note index
@@ -54,11 +54,11 @@ Stable personal fact · validated solution · confirmed config · reusable patte
 
 ## Silent Operation
 All vault and tool ops silent unless user asks or debugging.
-'''
+```
 
 once the vault tool is available create a home.md file in the vault with something like this. give it as example to your LLM it should be able to do it itself.
 
-'''
+```
 # Memory Hub
 
 ## System
@@ -75,7 +75,7 @@ once the vault tool is available create a home.md file in the vault with somethi
 ## COMMS
 - [[../COMMS/README]] — task flow: ollama queue, inbox, drafts, archive
 
-'''
+```
 
 ---
 ollama_for_claude.py 
